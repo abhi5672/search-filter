@@ -1,0 +1,47 @@
+.App-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+button{
+  margin: 10px;
+  outline: none;
+  background-color: rgb(70, 179, 70);
+  border: none;
+  border-radius: 50px;
+  /* color: white; */
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+.App-container input{
+  
+  height: 25px; 
+  margin: 10px;
+  outline: none;
+  background-color: lightblue;
+  border: none;
+  border-radius: 50px;
+  color: #000;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+
+button:hover{
+  cursor: pointer;
+  /* padding: 12px 22px; */
+  color:azure;
+  box-shadow: 1.5px 1px 15px #000;
+}
+
+.App-container input:hover{
+  /* cursor: pointer; */
+  /* padding: 12px 22px; */
+  /* color:azure; */
+  box-shadow: 1px 1px 10px #0f0732;
+}
+
+.App-container input:focus{
+  border: 1px solid #180b49;
+}
